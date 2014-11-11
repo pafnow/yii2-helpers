@@ -1,0 +1,22 @@
+{
+    "name": "pafnow/yii2-helpers",
+    "description": "A collection of helper functions for Yii Framework 2.0",
+    "keywords": ["yii", "yii2", "extension", "helper", "utilities"],
+    "homepage": "https://github.com/pafnow/yii2-helpers",
+    "type": "yii2-extension",
+    "license": "BSD 3-Clause",
+    "authors": [
+        {
+            "name": "Pafnow",
+            "email": "pafnow@hotmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2-bootstrap": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "pafnow\\helpers\\": ""
+        }
+    }
+}
